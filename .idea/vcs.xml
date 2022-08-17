@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/apriltag_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apriltag_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/arams_packages" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/image_pipeline" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros2_shared" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros2_usb_camera" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tello_fly" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tello_ros" vcs="Git" />
+  </component>
+</project>

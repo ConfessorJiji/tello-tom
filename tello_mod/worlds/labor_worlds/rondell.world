@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<sdf version='1.7'>
+  <world name='default'>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>64.0 -105.0 62.5 -0 0.349796 2,294370</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+    <physics type='ode'>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>150</iters>
+          <precon_iters>0</precon_iters>
+          <sor>1.4</sor>
+          <use_dynamic_moi_rescaling>1</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>1e-05</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>2000</contact_max_correcting_vel>
+          <contact_surface_layer>0.01</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+
+    <include>
+      <pose>-24.247654503 -25.581844504 0 0 -0 0.740794</pose>
+      <uri>model://ARMW</uri>
+    </include>
+
+    <include>
+      <pose>14.167002049 35.705465734 0 0 0 -2.05182</pose>
+      <uri>model://CMC</uri>
+    </include>
+
+    <include>
+      <pose>-10.47295674 -36.379891449 -0.591475 0 -0 1.56691</pose>
+      <uri>model://Cabinet</uri>
+      <name>Cabinet_1</name>
+    </include>
+
+    <include>
+      <pose>-10.47295674 -36.379891449 -0.591475 0 -0 1.56691</pose>
+      <uri>model://Cabinet</uri>
+      <name>Cabinet_2</name>
+    </include>
+
+    <include>
+      <pose>40.019924308 -2.683707859 0 0 -0 0.595443</pose>
+      <uri>model://Display_Board</uri>
+      <name>Display_Board_1</name>
+    </include>
+
+    <include>
+      <pose>6.646768167 38.040504511 0 0 -0 2.85766</pose>
+      <uri>model://Display_Board</uri>
+      <name>Display_Board_2</name>
+    </include>
+
+    <include>
+      <pose>5.694397309 -34.553750223 0 0 0 -0.605388</pose>
+      <uri>model://Display_Board</uri>
+      <name>Display_Board_3</name>
+    </include>
+
+    <include>
+      <pose>-9.480358985 38.861607981 0 0 0 -2.96148</pose>
+      <uri>model://Display_Board</uri>
+      <name>Display_Board_4</name>
+    </include>
+
+    <include>
+      <pose>-15.193619396 36.65344451 0 0 0 -2.60379</pose>
+      <uri>model://Display_Board</uri>
+      <name>Display_Board_5</name>
+    </include>
+
+    <include>
+      <pose>-34.041552264 -17.483912255 0 0 0 -0.547968</pose>
+      <uri>model://Display_Board</uri>
+      <name>Display_Board_6</name>
+    </include>
+
+    <include>
+      <pose>-1.473479919 38.910733287 0 0 0 -1.66308</pose>
+      <uri>model://ERP</uri>
+    </include>
+
+    <include>
+      <pose>34.640449407 -8.594580209 0.041255102 0 0 -0.661076</pose>
+      <uri>model://FlexPicker</uri>
+    </include>
+
+    <include>
+      <pose>-28.396902261 4.99599286 -0.477378 0 0 -0.131153</pose>
+      <uri>model://IMS</uri>
+    </include>
+
+    <include>
+      <pose>-0.023179 0.019344 0 0 -0 0</pose>
+      <uri>model://Lab</uri>
+    </include>
+
+    <include>
+      <pose>21.089227359 39.723395328 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_1</name>
+    </include>
+
+    <include>
+      <pose>44.679592882 -5.420977534 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_2</name>
+    </include>
+
+    <include>
+      <pose>41.065011247 -18.322723684 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_3</name>
+    </include>
+
+    <include>
+      <pose>-17.271226336 41.867010431 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_4</name>
+    </include>
+
+    <include>
+      <pose>-40.947275533 20.518066338 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_5</name>
+    </include>
+
+    <include>
+      <pose>-43.206468391 -13.316067967 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_6</name>
+    </include>
+
+    <include>
+      <pose>-18.076970214 -41.671334309 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_7</name>
+    </include>
+
+    <include>
+      <pose>15.142209192 -41.958723697 0 0 -0 0</pose>
+      <uri>model://Pillar</uri>
+      <name>Pillar_8</name>
+    </include>
+
+    <include>
+      <pose>-1.760761409 -35.523689407 6.361219391 0 -0 0</pose>
+      <uri>model://Shelf</uri>
+    </include>
+
+    <include>
+      <pose>−1.424993191 0.81038582 0 0 -0 0</pose>
+      <uri>model://Stairs</uri>
+      <name>Stairs_1</name>
+    </include>
+
+    <include>
+      <pose>-0.138864674 0.342036531 0 0 -0 0</pose>
+      <uri>model://Stairs</uri>
+      <name>Stairs_2</name>
+    </include>
+
+    <include>
+      <pose>-22.096676951 25.679904708 -0.491712 0 -0 2.1842</pose>
+      <uri>model://Table</uri>
+      <name>Table_1</name>
+    </include>
+
+    <include>
+      <pose>-17.903317969 28.656682465 -0.491403 0 -0 2.18366</pose>
+      <uri>model://Table</uri>
+      <name>Table_2</name>
+    </include>
+
+    <include>
+      <pose>30.241513078 -14.902993069 -0.494104 0 -0 2.49855</pose>
+      <uri>model://Table</uri>
+      <name>Table_3</name>
+    </include>
+
+    <include>
+      <pose>23.615182054 -24.667377565 -0.494606 0 -0 0.905374</pose>
+      <uri>model://Table</uri>
+      <name>Table_4</name>
+    </include>
+
+    <include>
+      <pose>14.425703273 -32.928553079 -0.497075 0 -0 0.640835</pose>
+      <uri>model://Table</uri>
+      <name>Table_5</name>
+    </include>
+
+    <include>
+      <pose>-33.762160019 14.994325518 -0.481819 0 -0 1.43389</pose>
+      <uri>model://Table</uri>
+      <name>Table_6</name>
+    </include>
+
+    <include>
+      <pose>-36.187515734 -3.517397308 -0.494195 0 -0 1.44259</pose>
+      <uri>model://Table</uri>
+      <name>Table_7</name>
+    </include>
+
+    <include>
+      <pose>-17.135338377 -29.484577159 -0.480847 0 -0 0.767527</pose>
+      <uri>model://Table</uri>
+      <name>Table_8</name>
+    </include>
+
+    <include>
+      <pose>-27.130624505 -12.59721368 0.5 0 -0 0.2645</pose>
+      <uri>model://screen_and_stand</uri>
+    </include>
+
+  </world>
+</sdf>
