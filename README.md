@@ -1,5 +1,5 @@
-This was my first ros Project. 
-Task: Fly a drone autonomously throug 4 fpv gates 
+This was my first ros Project, so i appologise for lack of good documentation and practices.  
+Task: Fly a drone autonomously throug 4 fpv gates
 
 ### Usefull Ros2 Commands ###
     rqt to get information about massagtypes that nodes send 
